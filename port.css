@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer | Graphic Designer | Freelancer</p>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I'm [Your Name], a passionate web developer with a strong background in front-end technologies like HTML, CSS, JavaScript, and more. I specialize in creating beautiful and functional websites.</p>
+                <img src="your-image.jpg" alt="Your Image">
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Details about your first project.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Details about your second project.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Details about your third project.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: yourname@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></li>
+                    <li>GitHub: <a href="https://github.com/yourgithub">yourgithub</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
